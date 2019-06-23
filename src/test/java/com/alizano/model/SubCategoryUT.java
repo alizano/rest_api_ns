@@ -25,7 +25,7 @@ public class SubCategoryUT {
 	@Test
 	public void testEquals() {
 		assertTrue(subCategory.equals(new SubCategory()));
-		assertFalse(subCategory.equals(new Category(null, null)));
+		assertFalse(subCategory.equals(new Category()));
 		assertFalse(subCategory.equals(null));
 	}
 	

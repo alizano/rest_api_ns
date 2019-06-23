@@ -11,8 +11,24 @@ You can use HAL by default going to http://localhost:8080/
 
 #Api Examples
 
+Default endpoints:
+
+ * http://localhost:8080/categories
+ * http://localhost:8080/categories/1
+ * http://localhost:8080/process
+
+
 Documentation available on Postman with examples to use the api
 
 https://documenter.getpostman.com/view/6221751/S1a1bUTS?version=latest 
+
+
+#Monitoring
+
+* Actuator is implemented to check app status.
+
+ * http://localhost:8080/actuator
+ * http://localhost:8080/actuator/health
+ * http://localhost:8080/actuator/info
 
 

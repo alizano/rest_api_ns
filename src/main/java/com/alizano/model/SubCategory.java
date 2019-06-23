@@ -9,8 +9,8 @@ public class SubCategory implements Serializable{
 	 */
 	private static final long serialVersionUID = 8371117529050805956L;
 
-	private String category;
-	private String subCategory;
+	private String category = "";
+	private String subCategory = "";
 
 	/**
 	 * @return the category

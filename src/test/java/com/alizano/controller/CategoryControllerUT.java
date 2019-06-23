@@ -39,12 +39,26 @@ public class CategoryControllerUT {
 
 	@Before
 	public void setUp() throws Exception {
-		
-		categoriesList.add(new Category(Long.valueOf(1),"PERSON"));
-		categoriesList.add(new Category(Long.valueOf(2),"PLACE"));
-		categoriesList.add(new Category(Long.valueOf(3),"ANIMAL"));
-		categoriesList.add(new Category(Long.valueOf(4),"COMPUTER"));
-		categoriesList.add(new Category(Long.valueOf(5),"OTHER"));
+		Category category = new Category();
+		category.setId(Long.valueOf(1));
+		category.setCategory("PERSON");
+		categoriesList.add(category);
+		category = new Category();
+		category.setId(Long.valueOf(2));
+		category.setCategory("PLACE");
+		categoriesList.add(category);
+		category = new Category();
+		category.setId(Long.valueOf(3));
+		category.setCategory("ANIMAL");
+		categoriesList.add(category);
+		category = new Category();
+		category.setId(Long.valueOf(4));
+		category.setCategory("COMPUTER");
+		categoriesList.add(category);
+		category = new Category();
+		category.setId(Long.valueOf(5));
+		category.setCategory("OTHER");
+		categoriesList.add(category);
 	}
 
 	@Test

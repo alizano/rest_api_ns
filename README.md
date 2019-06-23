@@ -5,6 +5,6 @@
 
 ##Api Examples
 
-Documentation avaible on Postman
+Documentation available on Postman
 
 https://documenter.getpostman.com/view/6221751/S1a1bUTS?version=latest 

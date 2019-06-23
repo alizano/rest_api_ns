@@ -1,5 +1,6 @@
 package com.alizano.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -32,6 +33,7 @@ public class Category {
 	/**
 	 * @return the category
 	 */
+	//@Column(unique=true)
 	public String getCategory() {
 		return category;
 	}
